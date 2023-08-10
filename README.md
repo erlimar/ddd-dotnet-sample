@@ -1,2 +1,4 @@
-# ddd-dotnet-sample
-Exemplo de projeto .NET que usa DDD como padrão de desenho
+DDD .NET Sample
+===============
+
+Exemplo de projeto .NET usando Domain Driven Design

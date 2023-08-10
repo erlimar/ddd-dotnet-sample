@@ -1,0 +1,8 @@
+<Project>
+    <PropertyGroup>
+        <Authors>Erlimar Silva Campos</Authors>
+        <Copyright>Copyright (c) Erlimar Silva Campos</Copyright>
+        <RepositoryUrl>https://github.com/erlimar/ddd-dotnet-sample</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+</Project>
