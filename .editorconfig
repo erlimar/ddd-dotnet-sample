@@ -5,10 +5,13 @@ root = true
 indent_style = space
 
 # Xml files
-[*.{xml,props}]
-indent_size = 4
+[*.{xml,props,csproj}]
+indent_size = 2
 
 [nuget.config]
+indent_size = 2
+
+[*.json]
 indent_size = 2
 
 # C# files
@@ -30,7 +33,7 @@ insert_final_newline = false
 # Organize usings
 dotnet_separate_import_directive_groups = true
 dotnet_sort_system_directives_first = true
-file_header_template = unset
+file_header_template = Copyright (c) Time DomainDrivenDesignSample. Todos os direitos reservados.\nEste arquivo é parte do projeto DomainDrivenDesignSample.
 
 # this. and Me. preferences
 dotnet_style_qualification_for_event = false:silent

@@ -1,8 +1,12 @@
 <Project>
-    <PropertyGroup>
-        <Authors>Erlimar Silva Campos</Authors>
-        <Copyright>Copyright (c) Erlimar Silva Campos</Copyright>
-        <RepositoryUrl>https://github.com/erlimar/ddd-dotnet-sample</RepositoryUrl>
-        <RepositoryType>git</RepositoryType>
-    </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Erlimar Silva Campos</Authors>
+    <Copyright>Copyright (c) Erlimar Silva Campos</Copyright>
+    <RepositoryUrl>https://github.com/erlimar/ddd-dotnet-sample</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <AnalysisLevel>6.0-recommended</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <LangVersion>10</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
 </Project>
