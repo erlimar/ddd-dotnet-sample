@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{673A5C15
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesignSample", "src\DomainDrivenDesignSample\DomainDrivenDesignSample.csproj", "{7FF55341-FD43-4463-A362-F4E6F7621EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesignSample.Tests", "test\DomainDrivenDesignSample.Tests\DomainDrivenDesignSample.Tests.csproj", "{FA2DD118-F73A-4857-BE47-BA85B22EC428}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,14 @@ Global
 		{A22BF525-F8BD-41E1-8ACE-6A323ABC9CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A22BF525-F8BD-41E1-8ACE-6A323ABC9CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A22BF525-F8BD-41E1-8ACE-6A323ABC9CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF55341-FD43-4463-A362-F4E6F7621EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF55341-FD43-4463-A362-F4E6F7621EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF55341-FD43-4463-A362-F4E6F7621EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF55341-FD43-4463-A362-F4E6F7621EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA2DD118-F73A-4857-BE47-BA85B22EC428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2DD118-F73A-4857-BE47-BA85B22EC428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2DD118-F73A-4857-BE47-BA85B22EC428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2DD118-F73A-4857-BE47-BA85B22EC428}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{796DFA92-EE82-4E2A-A6AD-6D1A5E3694E3} = {89BA8218-8137-4D0E-9268-F1A92F3A4BBB}
 		{A22BF525-F8BD-41E1-8ACE-6A323ABC9CEF} = {A2915E47-125D-4C5A-B574-14EE4AE06B95}
+		{7FF55341-FD43-4463-A362-F4E6F7621EB3} = {89BA8218-8137-4D0E-9268-F1A92F3A4BBB}
+		{FA2DD118-F73A-4857-BE47-BA85B22EC428} = {A2915E47-125D-4C5A-B574-14EE4AE06B95}
 	EndGlobalSection
 EndGlobal
