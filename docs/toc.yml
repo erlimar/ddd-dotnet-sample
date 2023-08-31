@@ -1,0 +1,7 @@
+- name: Artigos
+  href: articles/
+- name: Documentação de domínio
+  href: api/
+  homepage: api/index.md
+- name: OpenAPI/Swagger
+  href: swagger/

@@ -7,6 +7,12 @@
       "commands": [
         "dotnet-format"
       ]
+    },
+    "docfx": {
+      "version": "2.70.1",
+      "commands": [
+        "docfx"
+      ]
     }
   }
 }

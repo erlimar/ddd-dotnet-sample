@@ -30,7 +30,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Version = "v1",
         Title = "DomainDrivenDesignSample Web API",
-        Description = "Uma API de exemplo para projeto .NET usando Domain Driven Design",
+        Description = "Uma API de exemplo para projeto .NET usando Domain Driven Design. <a href=\"../\">Acesse a documentação completa aqui</a>.",
         TermsOfService = new Uri("https://github.com/erlimar/ddd-dotnet-sample"),
         Contact = new OpenApiContact
         {
@@ -57,8 +57,10 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDefaultFiles();
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseStaticFiles();
 }
 
 app.UseHttpsRedirection();

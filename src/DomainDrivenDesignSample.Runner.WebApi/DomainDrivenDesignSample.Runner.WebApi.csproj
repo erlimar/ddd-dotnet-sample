@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -18,5 +18,25 @@
     <ProjectReference Include="..\DomainDrivenDesignSample.Adapters.EntityFrameworkCoreRepositories\DomainDrivenDesignSample.Adapters.EntityFrameworkCoreRepositories.csproj" />
     <ProjectReference Include="..\DomainDrivenDesignSample.Adapters.WorldTimeApiGateway\DomainDrivenDesignSample.Adapters.WorldTimeApiGateway.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <Target Name="DeleteFiles" AfterTargets="Build">
+    <ItemGroup>
+      <FilesToDelete Include="wwwroot\**\*" />
+    </ItemGroup>
+    <Message Importance="high" Text="Deleting Files @(FilesToDelete)..." />
+    <Delete Files="@(FilesToDelete)">
+      <Output TaskParameter="DeletedFiles" ItemName="FilesDeleted" />
+    </Delete>
+    <Message Importance="high" Text="Files deleted: @(FilesDeleted)" />
+  </Target>
+
+  <Target Name="Docfx" AfterTargets="DeleteFiles">
+    <Message Importance="high" Text="Exec dotnet docfx ..\..\docs\docfx.json" />
+    <Exec Command="dotnet docfx ..\..\docs\docfx.json" StdOutEncoding="utf-8" StdErrEncoding="utf-8" />
+  </Target>
 
 </Project>
