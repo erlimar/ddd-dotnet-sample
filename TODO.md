@@ -1,4 +1,3 @@
-- [ ] Incluir Doc Tutorial na Web API
 - [ ] Incluir exemplo DDD Entity
 - [ ] Incluir exemplo DDD Value Object
 - [ ] Incluir exemplo DDD Aggregate
