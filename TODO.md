@@ -1,0 +1,10 @@
+- [ ] Incluir Doc Tutorial na Web API
+- [ ] Incluir exemplo DDD Entity
+- [ ] Incluir exemplo DDD Value Object
+- [ ] Incluir exemplo DDD Aggregate
+- [ ] Incluir exemplo DDD Service
+- [ ] Incluir exemplo DDD Repository
+- [ ] Incluir exemplo DDD Factory
+- [ ] Incluir exemplo DDD Event
+- [ ] Incluir exemplo Gateway
+- [ ] Incluir exemplo EntityFrameworkCore
