@@ -1,7 +1,7 @@
 // Copyright (c) Time DomainDrivenDesignSample. Todos os direitos reservados.
 // Este arquivo é parte do projeto DomainDrivenDesignSample.
 
-namespace DomainDrivenDesignSample.Tests;
+namespace DomainDrivenDesignSample.Application.Tests;
 
 public class UnitTest1
 {
